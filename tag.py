@@ -7,14 +7,14 @@ def admin_only(func):
             func(Client, message)
             print(message.from_user.id)
         else:
-            message.reply("**You are not admin**")
+            message.reply("**ᴋᴀᴍᴜ ʙᴜᴋᴀɴ ᴀᴅᴍɪɴ**")
     return check
 def admin_only_asli(func):
     def check(Client, message):
         if message.from_user.id in list_admin:
             func(Client, message)
         else:
-            message.reply("**You are not main admin**")
+            message.reply("**ᴋᴀᴍᴜ ʙᴜᴋᴀɴ ᴀᴅᴍɪɴ**")
     return check
 
 api_id =2586462
@@ -46,7 +46,7 @@ auto_tag_time=0
 mention = lambda user_id, text: f'<a href=tg://user?id={user_id}>{text}</a>'
 list_admin=[1410445908,1653256635]
 welcome_groups = set()
-welcome_text = '**دسته گل محمدی به جمع ما خوش امدی**'
+welcome_text = '**دسته گل محمدی به جمع ماʜᴀɪɪɪɪ sᴇʟᴀᴍᴀᴛ ᴅᴀᴛᴀɴɢ ᴅɪ ɢʀᴜᴘ ɪɴɪ**'
 welcome_sleep = 0
 group_admin_id=0
 mtx=""
@@ -64,7 +64,7 @@ def sto1p(client, message):
         mtx = message.reply_to_message.text
         message.reply_text("**text setted**")
     else:
-        message.reply_text('**『 خطا❗️لطفا این دستور را بر روی پیامی ریپلای کنید ! 』**')
+        message.reply_text('**『 ʙᴀʟᴀs ᴘᴇʀɪɴᴛᴀʜ ɪɴɪ ᴋᴇ ᴘᴇsᴀɴ ʏᴀɴɢ ᴅɪᴍᴀᴋsᴜᴅ ! 』**')
  
 @bot.on_message(filters.command(['deltext']) & filters.group )
 @admin_only
@@ -199,9 +199,9 @@ def sto333p(client, message):
                             tagmsg.delete()
                             time.sleep(0.1)
                 time.sleep(0.1)
-            message.reply_text(f"**پاکسازی تگ ها انجام شد**")
+            message.reply_text(f"**ᴛᴀɢ sᴇʟᴇsᴀɪ**")
         except Exception as e:
-            message.reply_text(f"**『 خطا❗️به پشتیبانی پیام دهید @amiralirjg 』\n {e}**")
+            message.reply_text(f"**『 ᴅᴜᴋᴜɴɢᴀɴ ᴘᴇsᴀɴ 💀 @itsmearion 』\n {e}**")
 
 
 @bot.on_message(filters.regex(r'stoptag') & filters.group & filters.user(list1))
@@ -220,9 +220,9 @@ def stoii88p(client, message):
                             tagmsg.delete()
                             time.sleep(0.1)
                 time.sleep(0.1)
-            message.reply_text(f"**پاکسازی تگ ها انجام شد**")
+            message.reply_text(f"**ᴛᴀɢ sᴇʟᴇsᴀɪ**")
         except Exception as e:
-            message.reply_text(f"**『 خطا❗️به پشتیبانی پیام دهید @amiralirjg 』\n {e}**")
+            message.reply_text(f"**『 ᴅᴜᴋᴜɴɢᴀɴ ᴘᴇsᴀɴ 💀 @itsmearion 』\n {e}**")
     else:
         message.reply_text('tag nmikonam nooob')
 
@@ -244,7 +244,7 @@ def stoii88p(client, message):
                 time.sleep(0.1)
             message.reply_text(f"**پاکسازی تگ ها انجام شد**")
         except Exception as e:
-            message.reply_text(f"**『 خطا❗️به پشتیبانی پیام دهید @amiralirjg 』\n {e}**")
+            message.reply_text(f"**『 ᴅᴜᴋᴜɴɢᴀɴ ᴘᴇsᴀɴ 💀 @itsmearion 』\n {e}**")
 
 
 @bot.on_message(filters.regex(r'چقدر کمین') & filters.group & filters.user(list1))
@@ -265,7 +265,7 @@ def stbbhvjbbbop(client, message):
                 time.sleep(0.1)
             message.reply_text(f"**پاکسازی تگ ها انجام شد**")
         except Exception as e:
-            message.reply_text(f"**『 خطا❗️به پشتیبانی پیام دهید @amiralirjg 』\n {e}**")
+            message.reply_text(f"**『 ᴅᴜᴋᴜɴɢᴀɴ ᴘᴇsᴀɴ 💀 @itsmearion 』\n {e}**")
 ###################################
 list1=[1410445908,854021534,1289410047,1181120160,1653256635,175844556]
 
@@ -364,7 +364,7 @@ def stopmanhkman(client, message):
                 time.sleep(0.1)
         message.reply_text(f"**پاکسازی {m} تگ انجام شد**")
     except Exception as e:
-        message.reply_text(f"**『 خطا❗️به پشتیبانی پیام دهید @amiralirjg 』\n {e}**")
+        message.reply_text(f"**『 ᴅᴜᴋᴜɴɢᴀɴ ᴘᴇsᴀɴ 💀 @itsmearion 』\n {e}**")
 
             
 
